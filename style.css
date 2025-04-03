@@ -10,3 +10,14 @@ h1
 body
 {background-image:url('pantera.jfif');
 background-size: 100%}
+#agua {
+   color: blue;
+   font-size: 36px;
+   text-align: center;}
+   
+#principal{
+   color:pink
+}
+.texto-verde{
+color:green
+}
