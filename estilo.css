@@ -12,3 +12,19 @@
    border: 3px solid black;
    border-radius: 10px;
 }
+#carlos{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px ;
+    padding: 30px;
+   
+    align-content: center;
+    align-items: center;
+    
+}
+#dona{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+}
