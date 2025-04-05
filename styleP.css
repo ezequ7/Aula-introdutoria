@@ -1,0 +1,21 @@
+#numero{
+    width: 200px;
+}
+#senha{
+    width: 200px;
+}
+#agradecimento{
+   text-align: center;
+}
+#nome{
+    width: 200px;
+
+}
+#logo{
+  margin-left: 1150px;
+  margin-top: 270px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+#titulo{
+    font-family: Bold
+}
