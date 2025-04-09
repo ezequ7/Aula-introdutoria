@@ -8,13 +8,21 @@
   padding: 10px 0;
 }
 .nave{
-    display: flex;
-    justify-content: center;
+    width: 200px;
+    background-color: rgb(51, 51, 51);
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
 }
 .nave a{
-    color: white;
-    padding: 15px 30px;
-    transition: background 0.3s;
+    display: block;
+    color: aliceblue;
+    padding: 30px 20px;
+    text-decoration: none;
+    border-bottom: 1px black;
+    font-family: 'Courier New', Courier, monospace;
 }
 .nave a:hover{
   background-color: rgb(129, 124, 124);
