@@ -1,0 +1,76 @@
+/*Funciona em todo o site, não se limita a alguma tag*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilo do corpo*/
+body{
+    
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/*cabecalho*/
+header{
+    background-color: #4d82bc;
+    padding: 10px 0;
+}
+header nav ul{
+    list-style: none;
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 0 50px; 
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 11px 11px;
+}
+header nav li a:hover{
+    transition:background-color 0.3s;
+    background-color: #c4dafa;
+}
+/*estilado inicio*/
+.ini-section{
+    text-align: center;
+    color: rgb(29, 27, 27);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.ini-section h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.cts-button{
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: #4d82bc;
+    color: whitesmoke;
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: background-color;
+}
+.cts-button:hover{
+    background-color: #4d83bcc4;
+}
+/*SEGUNDA SEÇÂO*/
+.sobre-section{
+    background-color: #4d82bc   ;
+    padding: 90px 90px;
+    text-align: center;
+}
+.sobre-section h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
