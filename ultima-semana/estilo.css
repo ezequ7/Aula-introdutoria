@@ -74,3 +74,84 @@ header nav li a:hover{
     margin-bottom: 20px;
     font-size: 30px;
 }
+/*seção de serviços (pai sabe muito,genial)*/
+#servicos{
+   background-color: #ffffff  ;
+   text-align: center;
+   padding: 50px 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card{
+    margin-top: 20px;
+    background-color: #84b6f4;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 10px 20px 60px black;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+.card h3{
+    font-size: 23px;    
+}
+
+.card:not(:hover){
+    opacity: 0.8;
+}
+
+.preco{
+    margin-top: 20px;
+}
+
+#servicos{
+    margin-bottom: 100px;
+}
+/* ja pode me contratatar */
+#contato{
+    background-color: #84b6f4   ;
+    padding: 50px 50px;
+    color: black;
+    text-align: center;
+}
+.contato-form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.contato-form label{
+    
+    display: block;
+    margin-top: 20px;
+}
+.contato-form input, .contato-form textarea{
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 20px;
+ border-radius: 5px;
+ border: none;
+}
+.contato-form button{
+    background-color: #4d82bc;
+    color: white;
+    border: none;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.contato-form button:hover{
+    background-color: #4d83bc77;
+}
